@@ -20,6 +20,18 @@ public interface TbBrandMapper {
 //    })
     List<TbBrand> selectByExample(TbBrandExample example);
 
+    int insert(TbBrand record);
+
+    int updateByPrimaryKey(TbBrand record);
+
+    TbBrand selectByPrimaryKey(Long id);
+
+    int deleteByPrimaryKey(Long id);
+
+
+
+
+
 //    /**
 //     * 测试
 //     * @return
