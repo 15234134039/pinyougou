@@ -79,32 +79,52 @@
             <version>${zkclient.version}</version>
         </dependency>
 
+        <!-- junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+
+        <!-- fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.28</version>
         </dependency>
+
         <dependency>
             <groupId>javassist</groupId>
             <artifactId>javassist</artifactId>
             <version>3.11.0.GA</version>
         </dependency>
+
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.10</version>
         </dependency>
+
+        <!-- servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- spring-security -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>4.1.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>4.1.0.RELEASE</version>
+        </dependency>
+
         <dependency>
             <groupId>com.pinyougou</groupId>
             <artifactId>pinyougou-common</artifactId>
