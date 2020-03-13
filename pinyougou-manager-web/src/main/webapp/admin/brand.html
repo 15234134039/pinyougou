@@ -34,8 +34,8 @@
 			//重新加载列表数据
 			$scope.reloadList=function(){
 				//切换页码
-				$scope.findPage($scope.paginationConf.currentPage, $scope.paginationConf.itemsPerPage);
-				//$scope.search($scope.paginationConf.currentPage, $scope.paginationConf.itemsPerPage);
+				//$scope.findPage($scope.paginationConf.currentPage, $scope.paginationConf.itemsPerPage);
+				$scope.search($scope.paginationConf.currentPage, $scope.paginationConf.itemsPerPage);
 			}
 			//分页控件配置 currentPage:当前页   totalItems :总记录数  itemsPerPage:每页记录数  perPageOptions :分页选项  onChange:当页码变更后自动触发的方法
 			$scope.paginationConf = {
