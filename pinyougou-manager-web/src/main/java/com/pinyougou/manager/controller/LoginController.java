@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/login")
 public class LoginController {
 
-    @RequestMapping("name")
+    @RequestMapping("/name")
     public Map name(){
         String name = SecurityContextHolder.getContext().getAuthentication().getName();
         Map<String,String> map = new HashMap<String,String>(16);
